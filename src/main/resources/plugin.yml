@@ -1,0 +1,11 @@
+name: RottenFood
+version: '1.0-SNAPSHOT'
+main: com.array64.rottenFood.RottenFood
+api-version: '1.21'
+authors: [ Array64 ]
+description: After a minute your food becomes rotten
+
+commands:
+  setRottenTimer:
+    description: Sets the number of seconds before food becomes rotten
+    usage: /<command> <seconds>
